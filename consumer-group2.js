@@ -1,5 +1,5 @@
 const {Kafka} = require('@confluentinc/kafka-javascript').KafkaJS;
-console.log('this is consumer 2');
+
 const consumer = new Kafka().consumer({
     'bootstrap.servers': 'my-broker:9092',
     'group.id': 'new-consumer-2'
